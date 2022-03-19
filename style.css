@@ -1,16 +1,44 @@
-/* Main Styles */
+/* Body/Page */
 
 #main-body {
+  text-align: center;
   background-color: black;
   color: whitesmoke;
-  display: table-cell;
+  display: inline-block;
   vertical-align: middle;
   width: 100%;
+  margin: auto;
 }
 
-#main-page,
-#main-body {
-  height: 100%;
+#main-page {
+  height: auto;
+  margin: auto;
+}
+
+#about-body {
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: auto;
+}
+
+#cart-body {
+  background-color: black;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+}
+
+#contact-body {
+  background-color: black;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
   margin: auto;
 }
 
@@ -20,13 +48,10 @@
   margin: auto;
 }
 
-#about-body {
-  background-color: bla;
-}
-
 /* Top Navigation Bar */
 
 .topnav {
+  text-align: left;
   overflow: hidden;
   background-color: black;
 }
@@ -94,17 +119,19 @@
   font-size: large;
 }
 
-.card {
-  position: relative;
-  left: 264px;
-  cursor: pointer;
+img {
   margin: auto;
-  width: 350px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  text-align: center;
-  font-family: arial;
+}
+
+.card {
   display: inline-block;
+  text-align: center;
+  width: 300px;
+  margin: 0;
+  object-fit: cover;
+  cursor: pointer;
+  font-family: arial;
+  font-size: 12px;
 }
 
 .card:hover {
@@ -128,8 +155,8 @@
   background-color: whitesmoke;
   text-align: center;
   cursor: pointer;
-  width: 300px;
   font-size: 18px;
+  width: 300px;
 }
 
 .card button:active {
@@ -140,21 +167,13 @@
   opacity: 0.7;
 }
 
-/* Footer Area */
-
-#about-us {
-  text-align: center;
-}
-
-/* Contact Page */
+/* Headers/Text */
 
 #contact-us {
   margin-top: 40px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
-
-/* Shopping Cart Page */
 
 #my-cart {
   margin-top: 40px;
