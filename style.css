@@ -90,7 +90,7 @@
 }
 
 .topnav a {
-  margin-top: 5px;
+  margin-top: 10px;
   display: inline-block;
   color: rgb(255, 255, 255);
   text-align: center;
@@ -231,13 +231,13 @@ img {
 
 /* Product Page Images */
 
+#active-product {
+  transform: scale(1.2);
+}
+
 #cldbld-t-white {
   margin-top: 100px;
   width: 400px;
-}
-
-#cldbld-t-white:hover {
-  transform: scale(1.2);
 }
 
 #cldbld-t-red {
@@ -246,17 +246,9 @@ img {
   /* border-style: solid; */
 }
 
-#cldbld-t-red:hover {
-  transform: scale(1.2);
-}
-
 #cldbld-t-black {
   margin-top: 100px;
   width: 150px;
-}
-
-#cldbld-t-black:hover {
-  transform: scale(1.2);
 }
 
 #athshorts-prodpage {
@@ -264,19 +256,9 @@ img {
   width: 500px;
 }
 
-#athshorts-prodpage:hover {
-  transition: transform 0.2s;
-  transform: scale(1.2);
-}
-
 #bat-prodpage {
   margin-top: 100px;
   width: 500px;
-}
-
-#bat-prodpage:hover {
-  transition: transform 0.2s;
-  transform: scale(1.2);
 }
 
 /* Links */
