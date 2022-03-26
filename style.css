@@ -83,14 +83,14 @@
 
 /* Navigation Bar */
 
-.topnav {
+.navBar {
   text-align: left;
   overflow: hidden;
   background-color: black;
 }
 
-.topnav a {
-  margin-top: 10px;
+.navBar a {
+  margin-top: 2px;
   display: inline-block;
   color: rgb(255, 255, 255);
   text-align: center;
@@ -100,23 +100,25 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.topnav a:hover {
+.navBar a:hover {
   background-color: #ddd;
   color: black;
 }
 
-.topnav a.active {
+.navBar a.active {
   background-color: rgb(255, 255, 255);
   color: black;
   transform: translateY(4px);
 }
 
-.topnav input[type="text"] {
+.navBar input[type="text"] {
+  width: 150px;
+  height: 20px;
   float: right;
   border: none;
   border-radius: 10px;
   padding-left: 10px;
-  margin-top: 8px;
+  margin-top: 12px;
   margin-right: 16px;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
@@ -224,26 +226,28 @@ img {
   text-align: center;
 }
 
-/* .product-desc {
-  margin-top: 300px;
+#cb-copyright {
+  font-family: Arial, Helvetica, sans-serif;
 }
-*/
 
 /* Product Page Images */
 
-#active-product {
-  transform: scale(1.2);
+.active-product {
+  object-fit: cover;
+}
+
+.active-product:hover {
+  transform: scale(1.1);
 }
 
 #cldbld-t-white {
   margin-top: 100px;
-  width: 400px;
+  width: 500px;
 }
 
 #cldbld-t-red {
   margin-top: 100px;
   width: 150px;
-  /* border-style: solid; */
 }
 
 #cldbld-t-black {
@@ -262,6 +266,10 @@ img {
 }
 
 /* Links */
+
+#about-txt {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 a {
   color: whitesmoke;
